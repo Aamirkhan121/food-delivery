@@ -1,6 +1,6 @@
 import userModle from "../models/userModel.js";
 import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs"
 import validator from "validator";
 import orderModle from "../models/orderModle.js";
 import Stripe from "stripe";
